@@ -1,0 +1,67 @@
+
+// raspberry pi configuration toll open in terminal
+sudo raspi-config
+
+
+// rsapberry pi kernel header
+sudo apt install raspberrypi-kernel-headers
+
+// raspberry pi pinout configuration
+pinout
+
+//kernel information
+uname -r
+uname -mrs
+uname -a
+
+//partition and externel device[like memory vard, pendrive]
+lsblk
+
+//serial communication
+sudo apt-get install minicom
+
+// serial configuration
+minicom -s
+
+// device driver list[character and block devices]
+cat /proc/devices
+
+//cpu information
+lscpu
+
+//kernel message display
+dmesg
+dmesg -w
+
+//linux kernel website
+https://kernel.org/
+
+//linux source code build from source code link website
+https://phoenixnap.com/kb/build-linux-kernel
+
+//raspberry pi cross compilation website link
+https://www.raspberrypi.com/documentation/computers/linux_kernel.html#cross-compiling-the-kernel
+
+// linux device driver and STM32, basic microcontroller and other driver skill learing link
+https://embetronicx.com/tutorials/linux/device-drivers/gpio-driver-basic-using-raspberry-pi/
+
+//GNU makefile create learing link website
+https://www.gnu.org/software/make/manual/make.html
+
+................................
+Update the package lists and install build-essential by running these commands:
+
+sudo apt update
+sudo apt install -y build-essential
+Various packages have been installed and we can check versions of them individually.
+
+gcc --version
+g++ --version
+make --version
+dpkg-buildpackage --version
+If you decided to completely remove build-essential and related dependencies, then execute the following command:
+
+sudo apt purge --autoremove -y build-essential gcc g++ make
+..............................
+
+

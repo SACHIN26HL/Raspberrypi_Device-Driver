@@ -1,0 +1,74 @@
+final dependencies //next line always give a tab // always keep main.o in last
+	recipe //recipe is the command to generate the final target
+
+sub_target: dependencies
+	recipe	
+
+	
+v1.1	<.....................................>
+	calc.exe: add.o mul.o main.o  //final dependencies
+  2     gcc -o calc.exe add.o mul.o main.o
+  3
+  4 add.o: add.c    //sub_target
+  5     gcc -c add.c
+  6
+  7 mul.o: mul.c
+  8     gcc -c mul.c
+  9
+ 10 main.o: main.c
+ 11     gcc -c main.c
+ 12
+ 13 clean:
+ 14     rm *.o *.exe
+
+<............................................>
+:
+:
+:
+
+clean:			//built in target no dependencies
+	rm *.o *.exe //remove all .o file and .exe file
+
+				//run this using make clean
+
+//the above way of writing make file is not optimized and is tedious job
+
+
+v2.0 ,..............................>
+
+OBJ:= add.o mul.o main.o
+  2
+  3 calc.exe: $(OBJ)
+  4     gcc -o calc.exe $(OBJ)
+  5
+  6 $(OBJ):
+  7
+  8 clean:
+  9     rm *.o *.exe
+,<....................................>
+
+
+//more optimization
+v3.0 <......................>
+	generic of a make file //no need to modify again and again
+
+//wildcard --> Seclect all the .c file in that folder and stored in SRC
+//patsubst --> convert all .c file to .obj file in SRC file and stored in OBJ or (replace *by % will show all the compilation steps while compiling and create .o and .c file from SRC .c file)
+
+
+ SRC:= $(wildcard *.c)
+  2 OBJ:= $(patsubst %.c, %.o, $(SRC))
+  3 
+  4 calc.exe: $(OBJ)
+  5     gcc -o $@ $^   //$@ replace itself by out.exe and $^
+  6 
+  7 clean: 
+  8     rm *.o *.exe
+  9 
+ 10 run:
+ 11     make && ./calc.exe
+
+
+<................................>
+
+
