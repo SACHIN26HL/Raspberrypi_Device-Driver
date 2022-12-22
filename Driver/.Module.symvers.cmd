@@ -1,0 +1,1 @@
+cmd_/home/enginner/Doc_Raspberry_Pi/Driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/enginner/Doc_Raspberry_Pi/Driver/modules.order | scripts/mod/modpost -m -a  -o /home/enginner/Doc_Raspberry_Pi/Driver/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/enginner/Doc_Raspberry_Pi/Driver/cdev_and_File_operation/modules.order := {   echo /home/enginner/Doc_Raspberry_Pi/Driver/cdev_and_File_operation/my_driver.ko; :; } | awk '!x[$$0]++' - > /home/enginner/Doc_Raspberry_Pi/Driver/cdev_and_File_operation/modules.order

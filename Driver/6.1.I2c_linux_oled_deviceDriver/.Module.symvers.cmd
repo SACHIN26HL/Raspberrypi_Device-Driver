@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/DriverImplementaion/1.I2c_linux_deviceDriver/Module.symvers := sed 's/\.ko$$/\.o/' /home/pi/workspace/DriverImplementaion/1.I2c_linux_deviceDriver/modules.order | scripts/mod/modpost -m -a  -o /home/pi/workspace/DriverImplementaion/1.I2c_linux_deviceDriver/Module.symvers -e -i Module.symvers   -T -

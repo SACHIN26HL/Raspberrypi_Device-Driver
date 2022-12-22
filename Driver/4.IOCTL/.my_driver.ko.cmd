@@ -1,0 +1,1 @@
+cmd_/home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.ko /home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.o /home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.mod.o;  true

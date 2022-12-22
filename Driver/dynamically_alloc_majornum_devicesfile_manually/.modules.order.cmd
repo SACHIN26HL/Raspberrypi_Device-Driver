@@ -1,0 +1,1 @@
+cmd_/home/enginner/Doc_Raspberry_Pi/Driver/dynamically_alloc_majornum_devicesfile_manually/modules.order := {   echo /home/enginner/Doc_Raspberry_Pi/Driver/dynamically_alloc_majornum_devicesfile_manually/my_driver.ko; :; } | awk '!x[$$0]++' - > /home/enginner/Doc_Raspberry_Pi/Driver/dynamically_alloc_majornum_devicesfile_manually/modules.order

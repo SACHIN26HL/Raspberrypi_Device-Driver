@@ -1,0 +1,1 @@
+cmd_/home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.mod := { echo  /home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.o;  echo; } > /home/Sachin/Doc_Raspberry_Pi/Driver/4.IOCTL/my_driver.mod

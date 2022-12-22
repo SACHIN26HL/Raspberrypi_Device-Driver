@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/mydriver.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/mydriver.ko /home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/mydriver.o /home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/mydriver.mod.o;  true

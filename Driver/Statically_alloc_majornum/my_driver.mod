@@ -1,0 +1,2 @@
+/home/enginner/Doc_Raspberry_Pi/Driver/Statically_alloc_majornum/my_driver.o
+

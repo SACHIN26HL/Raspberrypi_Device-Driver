@@ -1,0 +1,27 @@
+#ifndef BCM2837_H
+#define BCM2837_H
+
+
+//raspberry pi 3 Register or GPIO address
+
+#define GPIO_BASE_ADD 0x7E200000
+
+#define GPIO_FSELE0 0x7E200000               //size 32  and R/W  0-9
+#define GPIO_FSELE1 0x7E200004				 //
+#define GPIO_FSELE2 0x7E200008
+#define GPIO_FSELE3 0x7E20000C
+#define GPIO_FSELE4 0x7E200010
+#define GPIO_FSELE5 0x7E200014
+
+#define GPIO_PIN_OUTPUY_SET0 0x7E20001C
+#define GPIO_PIN_OUTPUY_SET1 0x7E200020
+
+#define GPIO_PIN_OUTPUY_CLR0 0x7E200028
+#define GPIO_PIN_OUTPUY_CLR1 0x7E20002C
+
+#define GPIO_PIN_LEVEL0 0x7E200034
+#define GPIO_PIN_LEVEL1 0x7E200038
+
+
+
+#endif

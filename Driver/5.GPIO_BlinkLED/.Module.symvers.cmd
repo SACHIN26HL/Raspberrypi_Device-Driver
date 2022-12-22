@@ -1,0 +1,1 @@
+cmd_/home/Sachin/Doc_Raspberry_Pi/Driver/5.GPIO_BlinkLED/Module.symvers := sed 's/\.ko$$/\.o/' /home/Sachin/Doc_Raspberry_Pi/Driver/5.GPIO_BlinkLED/modules.order | scripts/mod/modpost -m -a  -o /home/Sachin/Doc_Raspberry_Pi/Driver/5.GPIO_BlinkLED/Module.symvers -e -i Module.symvers   -T -

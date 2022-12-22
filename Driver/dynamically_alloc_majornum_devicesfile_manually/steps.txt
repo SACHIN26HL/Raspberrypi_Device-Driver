@@ -1,0 +1,27 @@
+Manually Creating Device File
+
+We can create the device file manually by using mknod.
+
+mknod -m <permissions> <name> <device type> <major> <minor>
+
+<name> – your device file name that should have a full path (/dev/name)
+
+<device type> – Put c or b
+
+c – Character Device
+
+b – Block Device
+
+<major> – major number of your driver
+
+<minor> – minor number of your driver
+
+-m <permissions> – optional argument that sets the permission bits of the new device file to permissions
+
+Example:
+sudo mknod -m 666 /dev/etx_device c 246 0
+
+If you don’t want to give permission, You can also use chmod to set the permissions for a device file after creation.
+Advantages
+
+    Anyone can create the device file using this method.

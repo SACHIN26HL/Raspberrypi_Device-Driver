@@ -1,0 +1,2 @@
+/home/enginner/Doc_Raspberry_Pi/Driver/dynamically_alloc_majornum_devicesfile_automatically/my_driver.o
+

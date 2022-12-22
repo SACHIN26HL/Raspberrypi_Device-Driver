@@ -1,0 +1,1 @@
+cmd_/home/Sachin/Sachin_Documents/Workspace-Raspberry_Pi/Driver/7.interrupt/Module.symvers := sed 's/\.ko$$/\.o/' /home/Sachin/Sachin_Documents/Workspace-Raspberry_Pi/Driver/7.interrupt/modules.order | scripts/mod/modpost -m -a  -o /home/Sachin/Sachin_Documents/Workspace-Raspberry_Pi/Driver/7.interrupt/Module.symvers -e -i Module.symvers   -T -

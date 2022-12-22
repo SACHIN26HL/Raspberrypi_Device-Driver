@@ -1,0 +1,1 @@
+cmd_/home/enginner/Doc_Raspberry_Pi/Driver/File_operation_User_and_KernelD_app/my_driver.mod := { echo  /home/enginner/Doc_Raspberry_Pi/Driver/File_operation_User_and_KernelD_app/my_driver.o;  echo; } > /home/enginner/Doc_Raspberry_Pi/Driver/File_operation_User_and_KernelD_app/my_driver.mod

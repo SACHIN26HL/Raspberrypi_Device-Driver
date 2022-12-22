@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/DriverImplementaion/4.gpio/driver.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/workspace/DriverImplementaion/4.gpio/driver.ko /home/pi/workspace/DriverImplementaion/4.gpio/driver.o /home/pi/workspace/DriverImplementaion/4.gpio/driver.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/DriverImplementaion/4.gpio/modules.order := {   echo /home/pi/workspace/DriverImplementaion/4.gpio/driver.ko; :; } | awk '!x[$$0]++' - > /home/pi/workspace/DriverImplementaion/4.gpio/modules.order

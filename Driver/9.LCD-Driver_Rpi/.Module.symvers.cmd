@@ -1,0 +1,1 @@
+cmd_/home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/Module.symvers := sed 's/\.ko$$/\.o/' /home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/modules.order | scripts/mod/modpost -m -a  -o /home/pi/workspace/DriverImplementaion/LCD-Driver_Rpi/Module.symvers -e -i Module.symvers   -T -
